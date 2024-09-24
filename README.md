@@ -1,3 +1,9 @@
-# MyPortfolio
+# Portfolio
 
-Hi, I’m Jamie Alonzo, a Software Developer based in Los Angeles with a passion for creating secure and scalable web applications. I enjoy exploring new technologies and tackling challenges to continuously improve my skills. Whether it’s frontend design or backend architecture, I love turning ideas into functional, user-friendly software solutions. Check out my projects below to see what I’ve been working on!
+Welcome to my portfolio! I’m Jamie Alonzo, a passionate Software Developer dedicated to turning innovative ideas into functional and engaging digital experiences. This portfolio showcases my projects, skills, and the journey I'm on as I continue to grow and learn in the world of software development.
+
+Current Status
+
+This portfolio is still a work in progress, and I'm actively adding new projects and refining existing ones. Stay tuned for updates as I expand my skill set and explore new technologies!
+
+Feel free to check out my projects, and don’t hesitate to reach out if you have any questions or opportunities to collaborate. More exciting updates will be coming soon!
