@@ -1,4 +1,4 @@
-// toggle icon navbar
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -8,7 +8,7 @@ menuIcon.onclick = () => {
 }
 
 window.onresize = () => {
-    if (window.innerWidth > 768) {  // You can adjust the width based on your media queries
+    if (window.innerWidth > 768) {  
         navbar.classList.remove('active');
         menuIcon.classList.remove('bx-x');
     }
