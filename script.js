@@ -1,4 +1,4 @@
-
+// toggle icon navbar
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -8,7 +8,7 @@ menuIcon.onclick = () => {
 }
 
 window.onresize = () => {
-    if (window.innerWidth > 768) {  
+    if (window.innerWidth > 768) {  // You can adjust the width based on your media queries
         navbar.classList.remove('active');
         menuIcon.classList.remove('bx-x');
     }
@@ -34,3 +34,13 @@ window.onscroll = () => {
         }
     });
 }
+
+// Select the custom cursor element
+const customCursor = document.getElementById('custom-cursor');
+
+// Update cursor position on mousemove
+document.addEventListener('mousemove', (e) => {
+  const { clientX, clientY } = e;
+  customCursor.style.top = `${clientY}px`;
+  customCursor.style.left = `${clientX}px`;
+});
