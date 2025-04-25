@@ -419,7 +419,10 @@ figure {
 
 .hero-title-wrap {
   margin-bottom: 148px;
+  text-align: left;
 }
+
+
 
 .hero-title {
   color: var(--black);
@@ -433,6 +436,7 @@ figure {
   width: 100%;
   max-width: 328px;
   margin-bottom: 170px;
+  text-align: left;
 }
 
 .hero-text {
@@ -441,6 +445,7 @@ figure {
   margin-bottom: 0;
   font-size: 16px;
   line-height: 22px;
+  text-align: left;
 }
 
 .feature-section {
@@ -3163,6 +3168,13 @@ figure {
 
 
 
+/* === Custom Homepage-title Styles === */
+
+
+
+
+
+
 /* === Custom Homepage-Featured-Project Section Styles === */
 
 .custom-projects-grid {
@@ -3236,7 +3248,41 @@ figure {
 }
 
 
+/* === Custom mobile title === */
+
+@media (max-width: 768px) {
+  .section-title.home-hero-title {
+    font-size: 75px;
+    letter-spacing: -1.5px;
+    line-height: 80px;
+  }
+}
+
+
+/* === Custom mobile homepage button === */
+
+
+
 /* === Custom Project Section Styles === */
+
+@media screen and (max-width: 767px) {
+    
+  .project-grid {
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+      gap: 24px !important;
+      padding: 0 16px !important;
+    }
+  }
+
+  .custom-projects-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding: 0 16px !important;
+  }
+  
+
 
 .projects-feature-section {
   padding: 80px 40px;
